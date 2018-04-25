@@ -1,0 +1,7 @@
+from node:9.10.0-alpine
+
+workdir /app
+
+entrypoint ["yarn"]
+
+cmd ["install"]
